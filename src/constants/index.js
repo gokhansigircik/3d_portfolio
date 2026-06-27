@@ -42,20 +42,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Frontend",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Full Stack Workflows",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Operations Mindset",
     icon: creator,
+  },
+  {
+    title: "Customer Focused UX",
+    icon: mobile,
   },
 ];
 
@@ -73,16 +73,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -116,55 +108,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Hospitality Operations",
+    company_name: "Customer service and team leadership",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Pre software career",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built service, communication, and team coordination habits in high pressure guest facing environments.",
+      "Learned to diagnose friction quickly, prioritize customer trust, and keep workflows clear under pressure.",
+      "Brought an operations mindset into software projects focused on scheduling, dashboards, forms, and customer experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Full Stack Developer Training",
+    company_name: "Project based software development",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Career transition",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built React, Flask, Spring Boot, and MySQL projects across authentication, CRUD workflows, APIs, and dashboards.",
+      "Practiced product thinking through hospitality adjacent projects such as camp operations, travel discovery, recipes, and property tracking.",
+      "Organized public work around fewer stronger repositories with clear README files, setup steps, and improvement roadmaps.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Frontend Portfolio Work",
+    company_name: "React, Vite, Three.js, Tailwind",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Current focus",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Uses modern frontend tooling to create polished public portfolio experiences.",
+      "Focuses on responsive layouts, reusable components, motion, 3D presentation, and clear recruiter friendly storytelling.",
+      "Keeps project copy aligned with the hospitality to software narrative.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Backend Fundamentals",
+    company_name: "Flask, Spring Boot, MySQL",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Current focus",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implements models, controllers, services, repositories, authentication, validation, sessions, and database backed workflows.",
+      "Documents setup paths, environment variables, and next improvements so projects are easier to review and extend.",
+      "Builds practical apps around real business workflows instead of isolated exercises.",
     ],
   },
 ];
@@ -172,93 +160,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Gokhan's hospitality background shows up in how he thinks about users, details, and operational clarity.",
+    name: "Career focus",
+    designation: "Full stack developer",
+    company: "Hospitality to software",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=256&q=80",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "The strongest projects are practical workflows: camp operations, property cash flow, recipes, travel discovery, and portfolio systems.",
+    name: "Project theme",
+    designation: "Product minded engineering",
+    company: "Operations software",
+    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=256&q=80",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "The public GitHub surface is being sharpened around fewer repositories with stronger documentation, setup, and product framing.",
+    name: "GitHub strategy",
+    designation: "Portfolio polish",
+    company: "Selected work",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=256&q=80",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "C.A.M.P.S",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Camp operations platform with React, Spring Boot, MySQL, activity management, registration, scheduling, and checkout flow thinking.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gokhansigircik/C.A.M.P.S",
   },
   {
-    name: "Job IT",
+    name: "Cash Flow Properties",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Flask and MySQL property workflow for creating, editing, viewing, and comparing investment opportunities through a dashboard.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/gokhansigircik/cash_flow_properties",
+  },
+  {
+    name: "Travel Advisor",
+    description:
+      "React travel discovery app using maps, place cards, and location based browsing for restaurants, hotels, and attractions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "maps",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "mui",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gokhansigircik/travel_advisor",
   },
 ];
 
